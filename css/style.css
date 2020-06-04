@@ -1,9 +1,8 @@
-@media (min-width: 481px) 
- {
+
+
         body{
-            background: url(background.jpg);
-            background-size:1550px 700px; 
-            background-repeat: no-repeat;
+            background: rgb(46, 28, 28);
+            
         
         }
         .dice{
@@ -17,43 +16,18 @@
             left:30%;
             color: rgb(0, 0, 0);
             font-size:4rem;
-            font-weight: bold;
+          
             font-family: 'Piedra', cursive;
+            color:#fff;
             
         }
         .btn{
         margin-top: 4%;
-        margin-left: 48%;
+        margin-left: 44%;
     }
-}
 
-  @media (max-width: 480px) 
-  {
-    body{
-        background: url(background.jpg);
-        background-size:280px 380px; 
-        background-repeat:no-repeat;
-    
-    }
-    .dice{
-        position: relative;
-        left:33%;
-        margin-top:6%;
-        
-        
-    }
-    .heading{
-        position: relative;  
-        margin-top:2.5%; 
-        text-align: center;
-        color: rgb(0, 0, 0);
-        font-size:4rem;
-        font-weight: bold;
-        font-family: 'Piedra', cursive;
-        
-    }
-    .btn{
-    margin-top: 4%;
-    margin-left: 48%;
+.btn-lg
+{
+    width:15%;
 }
-}
+   
