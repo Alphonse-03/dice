@@ -1,27 +1,59 @@
-body{
-     background: url(background.jpg);
-     background-size:1550px 700px; 
-     background-repeat: no-repeat;
-   
+@media (min-width: 481px) 
+ {
+        body{
+            background: url(background.jpg);
+            background-size:1550px 700px; 
+            background-repeat: no-repeat;
+        
+        }
+        .dice{
+            position: relative;
+            left:33%;
+            margin-top:6%;   
+        }
+        .heading{
+            position: relative;  
+            margin-top:2.5%; 
+            left:30%;
+            color: rgb(0, 0, 0);
+            font-size:4rem;
+            font-weight: bold;
+            font-family: 'Piedra', cursive;
+            
+        }
+        .btn{
+        margin-top: 4%;
+        margin-left: 48%;
+    }
 }
-.dice{
-    position: relative;
-    left:33%;
-    margin-top:6%;
+
+  @media (max-width: 480px) 
+  {
+    body{
+        background: url(background.jpg);
+        background-size:280px 380px; 
+        background-repeat:no-repeat;
     
-    
-}
-.heading{
-    position: relative;  
-    margin-top:2.5%; 
-    left:30%;
-    color: rgb(0, 0, 0);
-    font-size:4rem;
-    font-weight: bold;
-    font-family: 'Piedra', cursive;
-    
-}
-.btn{
+    }
+    .dice{
+        position: relative;
+        left:33%;
+        margin-top:6%;
+        
+        
+    }
+    .heading{
+        position: relative;  
+        margin-top:2.5%; 
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size:4rem;
+        font-weight: bold;
+        font-family: 'Piedra', cursive;
+        
+    }
+    .btn{
     margin-top: 4%;
     margin-left: 48%;
+}
 }
