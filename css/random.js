@@ -1,5 +1,8 @@
 
-    var p1=Math.floor(Math.random()*6+1)
+
+  function generate()
+  {   document.querySelector("h1").innerHTML="PRESS PLAY TO BEGIN"; 
+      var p1=Math.floor(Math.random()*6+1)
 
     var name="css/dice"+p1+".png";
     var temp=document.querySelectorAll("img")[0];
@@ -12,13 +15,15 @@
 
     if(p1>p2)
     {
-        document.querySelector("h1").innerHTML="player 1 wins";
+        document.querySelector("h1").innerHTML="🚩player 1 won 🥳";
     }
     else if(p2>p1)
     {
-        document.querySelector("h1").innerHTML="player 2 wins";
+        document.querySelector("h1").innerHTML="🚩player 2 won 🥳";
     }
     else if(p1==p2)
     {
-        document.querySelector("h1").innerHTML="DRAW";
+        document.querySelector("h1").innerHTML="🙅🏾‍♂️DRAW 🤙";
     }
+}
+
