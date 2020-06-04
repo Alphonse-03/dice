@@ -1,33 +1,52 @@
-
-
-        body{
-            background: rgb(46, 28, 28);
-            
-        
-        }
+body{
+     background: rgb(46, 28, 28);
+}
         .dice{
-            position: relative;
-            left:33%;
-            margin-top:6%;   
+        margin-top: ;
+           margin-left:auto;
         }
         .heading{
             position: relative;  
             margin-top:2.5%; 
-            left:30%;
+            text-align: center;
             color: rgb(0, 0, 0);
             font-size:4rem;
-          
             font-family: 'Piedra', cursive;
-            color:#fff;
-            
+            color:#fff;   
         }
         .btn{
         margin-top: 4%;
         margin-left: 44%;
-    }
-
+        }
 .btn-lg
 {
     width:15%;
 }
-   
+ .d1{
+
+   margin-right:auto;
+} 
+h2{
+    color: #fff;
+}
+.footer{
+    margin-top: 10%;
+    text-align: center;
+}
+@media screen and (min-width:1200px) 
+{
+    .d{
+        margin-left: 17%;
+
+    }
+}
+@media screen and (max-width:576px) 
+{
+        .img{
+            width:200px;
+        }  
+        .col-6{
+            width:34%;
+        }
+        
+}
