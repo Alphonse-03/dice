@@ -44,12 +44,18 @@ h2{
 {
         .img{
             width:200px;
+            margin-right: 2%;
+            box-sizing:unset;
         }  
         .col-6{
             width:34%;
         }
-     .btn-lg{
-          width:15%;
-     }
+    .btn-lg
+{
+    position: relative;
+    right:80px;
+    width:35%;
+    margin-bottom:8%;
+}
         
 }
